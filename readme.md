@@ -205,8 +205,7 @@ If you find a bug or want to request a feature, please create an issue in the Gi
 ## 📄 License
 
 * Licensed under the MIT License
-* © Kokri Web Solutions
-* Author: Ranjeev Wassan
+* © Restaurant Affiliate System
 
 ---
 
