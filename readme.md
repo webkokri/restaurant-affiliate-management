@@ -172,6 +172,8 @@ Restaurants can manage the entire program through a centralized admin dashboard.
 * REST API / Node.js backend (recommended)
 * MySQL / PostgreSQL database
 * JWT-based authentication
+* Twilio
+* Google Firebase
 
 ---
 
