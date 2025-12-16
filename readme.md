@@ -1,172 +1,253 @@
-# Gradient Able React Free Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Download%20Gradient%20Able%20-%20The%20Professional%20Bootstrap%20Designed%20React%20Admin%20Dashboard%20Template%20&url=https://codedthemes.com/demos/admin-templates/gradient-able/react/default&via=codedthemes&hashtags=reactjs,webdev,developers,javascript)
+# 🍽️ Restaurant Affiliate System – React Admin Template
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/codedthemes/gradient-able-free-admin-template/blob/main/react/LICENSE)
-[![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue?style=flat-square&logo=github)](https://codedthemes.com/item/gradient-able-reactjs-free-admin-template/)
-[![Join Discord](https://img.shields.io/badge/Join-Discord-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/invite/p2E2WhCb6s)
+[![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)](#)
+[![React](https://img.shields.io/badge/React-18+-61dafb.svg)](#)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple.svg)](#)
 
-Gradient Able React Free Admin Template comes with a variety of components like Button, Badges, Breadcrumb, & Authentication pages. The code structure is highly flexible to use and modify. Its design adapts to  any screen size easily, even on retina screens. It is a modern concept dashboard design with eye-catching colors. Wish you happy in using our product in your project.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](#)
+[![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue?style=flat-square\&logo=github)](#)
 
-✨ Support us! If you like this theme, click the ⭐ (Top right) and let it shine.
+A modern **Restaurant Affiliate System** built with React that enables restaurants to run a successful referral-based marketing program. Customers can sign up, receive a unique referral code, and earn rewards. For every **5 successful referrals**, customers receive a **$10 discount coupon**, redeemable at the restaurant by showing the code to the restaurant manager.
 
-![Gradient Able React Free Admin Template Preview Image](https://org-public-assets.s3.us-west-2.amazonaws.com/Free-Version-Banners/GITHUB-FREE-REACT-REPO%20-%20Gradient%20Able.jpg)
+✨ Support us! If you like this project, click the ⭐ (Top right) and help it grow.
 
-## Table of contents
+---
 
-- [Getting Started](#getting-started)
-- [Download](#download)
-- [Why Gradient Able?](#why-gradient-able)
-- [What's included in Premium Version?](#whats-included-in-premium-version)
-- [Documentation](#documentation)
-- [Browser support](#browser-support)
-- [Technology Stack](#technology-stack)
-- [Other Technologies](#other-technologies)
-- 💰[Save more with Big Bundle](#save-more-with-big-bundle)💰
-- [More React Dashboard Templates](#more-react-dashboard-templates)
-- [Issues?](#issues)
-- [License](#license)
-- [Contributor](#contributor)
-- [Useful Resources](#useful-resources)
-- [Community](#community)
-- [Follow us](#follow-us)
+## Table of Contents
 
-## Getting Started
+* [Getting Started](#getting-started)
+* [System Overview](#system-overview)
+* [Key Features](#key-features)
+* [User Roles](#user-roles)
+* [Referral & Reward Logic](#referral--reward-logic)
+* [Admin Dashboard Modules](#admin-dashboard-modules)
+* [Technology Stack](#technology-stack)
+* [Browser Support](#browser-support)
+* [Future Enhancements](#future-enhancements)
+* [Issues](#issues)
+* [License](#license)
 
-1. Clone from Github
+---
 
+## 🚀 Getting Started
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/your-org/restaurant-affiliate-system.git
 ```
-git clone https://github.com/codedthemes/gradient-able-free-admin-template.git
-```
-2. Go into react folder
 
-3. Install packages
+2. Navigate to the project folder
 
+```bash
+cd restaurant-affiliate-system
 ```
+
+3. Install dependencies
+
+```bash
 yarn
 ```
 
-4. Run project
+4. Run the project
 
-```
+```bash
 yarn start
 ```
 
-## Download
+The app will be available at:
 
-- Gradient Able Free
-  - [Live Preview](https://codedthemes.com/demos/admin-templates/gradient-able/react/free)
-  - [Download](https://github.com/codedthemes/gradient-able-free-admin-template)
-- Gradient Able Pro
-  - [Live Preview](https://codedthemes.com/demos/admin-templates/gradient-able/react/default)
-  - [Download](https://codedthemes.com/item/gradient-able-reactjs-admin-dashboard/)
+```text
+http://localhost:3000
+```
 
-## Why Gradient Able?
+---
 
-Gradient Able is offers everything you need to create dashboards. We have included the following high-end features in our initial release:
+## System Overview
 
-- Modern aesthetics UI design
-- Bootstrap components
-- Fully Responsive, all modern browser supported
-- Easy to use code structure
-- Flexible & High-Performance code
-- Easy Documentation Guide
+The **Restaurant Affiliate System** is designed to help restaurants increase customer acquisition through word-of-mouth marketing. Customers act as affiliates by referring friends and family using a unique referral code. The system tracks referrals, validates successful signups or orders, and automatically rewards affiliates with discount coupons.
 
-## What's included in Premium Version?
+Restaurants can manage the entire program through a centralized admin dashboard.
 
-The [Pro version](https://codedthemes.com/item/gradient-able-reactjs-admin-dashboard/) of Gradient able react template includes features such as javascript, apps, authentication methods (i.e. JWT, Auth0, Firebase), advance components, form plugins, layouts, widgets, and more.
+---
 
-| [Gradient Able Free](https://github.com/codedthemes/gradient-able-free-admin-template) | [Gradient able Pro](https://codedthemes.com/item/gradient-able-reactjs-admin-dashboard/)                |
-| -------------------------------------------------------     | :------------------------------------------------------------------------------- |
-| **12** Demo pages                                            | **100+** demo pages                                                               |
-| -                                                           | ✓ Multi-language                                                                 |
-| -                                                           | ✓ Dark/Light Mode 🌓                                                             |
-| -                                                           | ✓ Js version                                                              |
-| -                                                           | ✓ Multiple color options                                                                |
-| -                                                           | ✓ RTL                                                                            |
-| -                                                                                            | ✓ JWT, Firebase, Auth0, AWS authentication                                                                                                                            |
-| ✓ [MIT License](https://github.com/codedthemes/gradient-able-free-admin-template/blob/readme/LICENSE)                                               | ✓ [Pro License](https://codedthemes.com/item/gradient-able-reactjs-admin-dashboard)                |
+## Key Features
 
-## Documentation
+* Customer signup and referral system
+* Unique referral code generation
+* Automated referral tracking
+* Reward-based coupon generation
+* $10 discount coupons after every 5 successful referrals
+* Admin dashboard for restaurants
+* Coupon validation by restaurant manager
+* Responsive and modern UI
+* Secure and scalable architecture
 
-[Gradient Able React Documentation](https://codedthemes.gitbook.io/gradient-able-react/) helps you out in all aspects from Installation to deployment.
+---
 
-## Browser support
+## User Roles
 
-<img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/chrome.png" width="45" height="45" > <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/edge.png" width="45" height="45" > <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/safari.png" width="45" height="45" > <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/firefox.png" width="45" height="45" > <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/opera.png" width="45" height="45" >
+### 1. Customer / Affiliate
 
-## Technology Stack
+* Sign up to the platform
+* Receive a unique referral code
+* Share referral code with others
+* Track referral progress (e.g., 2/5 referrals completed)
+* Receive a $10 coupon after every 5 successful referrals
+* Redeem coupon at the restaurant
 
-- [Bootstrap V5](https://react-bootstrap.netlify.app/)
-- Built with React Hooks API.
-- Redux & React context API for state management.
-- Redux toolkit.
-- React Router for navigation routing.
-- Support for vite.
-- Code splitting.
-- CSS-in-JS.
+### 2. Restaurant Manager
 
-## Other Technologies
+* View active affiliates and referrals
+* Verify and validate coupon codes
+* Apply $10 discount to customer orders
+* Track redeemed and expired coupons
 
-| Technology                                                                                                                        | Free                                                                               | Pro                                                                       |
-| --------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| <p align="center"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Angular.png" width="25" height="25"></p>   | [**Free**](https://codedthemes.com/item/gradient-able-angular-free-admin-template/)       | [**Pro**](https://codedthemes.com/item/gradient-able-angular-admin-template/)    |
-| <p align="center"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Bootstrap.png" width="30" height="30"></p> | [**Free**](https://codedthemes.com/item/gradient-able-bootstrap-lite/)     | [**Pro**](https://codedthemes.com/item/gradient-able-admin-template/) |
+### 3. Admin (System Owner)
 
-## Save more with Big Bundle
+* Manage restaurants
+* Manage users and affiliates
+* Configure referral rules and rewards
+* Monitor system-wide performance
+* Generate reports and analytics
 
-[![bundle-image](https://org-public-assets.s3.us-west-2.amazonaws.com/Banners/Bundle+banner.png)](https://links.codedthemes.com/jhFBJ)
+---
 
-## More React Dashboard Templates
+## Referral & Reward Logic
 
-| Dashboard                                                                                                                                                          | FREE                                                                                | PRO                                                                                   |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Berry%20with%20name.png"  height="30" style="display:inline-block; vertical-align:middle;">   | [**Free**](https://codedthemes.com/item/berry-mui-free-react-admin-template/)       | [**Pro**](https://codedthemes.com/item/berry-material-react-admin-template/)</span>   |
-| <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Mantis%20with%20name.png" height="30" style="display:inline-block; vertical-align:middle;">    | [**Free**](https://codedthemes.com/item/mantis-free-mui-admin-template/)      | [**Pro**](https://codedthemes.com/item/mantis-mui-react-dashboard-template/)</span>       |
-| <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Datta%20with%20name.png" height="30" style="display:inline-block; vertical-align:middle;"> | [**Free**](https://codedthemes.com/item/datta-able-bootstrap-lite/) | [**Pro**](https://codedthemes.com/item/datta-able-bootstrap-admin-template/)</span> |
-## Issues
+1. Customer signs up and receives a unique referral code
+2. New users sign up or place orders using the referral code
+3. Each successful referral is recorded
+4. Once **5 referrals** are completed:
 
-If you found a bug in any version, please generate a [GitHub issue](https://github.com/codedthemes/gradient-able-free-admin-template/issues). We are trying our best to resolve the issue.
+   * A **$10 discount coupon** is generated
+   * Coupon is assigned to the affiliate account
+5. Customer shows the coupon code to the restaurant manager
+6. Manager validates the coupon and applies the discount
+7. Coupon status is updated as **Redeemed**
 
-## License
+---
 
-- Licensed under [MIT](https://github.com/codedthemes/gradient-able-free-admin-template/blob/readme/LICENSE)
-- Copyright © [CodedThemes](https://codedthemes.com/)
+## Admin Dashboard Modules
 
-## Contributor 
+### Authentication Module
 
-**CodedThemes Team**
+* Secure login and role-based access
 
-- https://x.com/codedthemes
-- https://github.com/codedthemes
+### Affiliate Management
 
-**Rakesh Nakrani**
+* View registered affiliates
+* Referral counts and status
+* Reward eligibility tracking
 
-- https://x.com/rakesh_nakrani
+### Coupon Management
 
-**Brijesh Dobariya**
+* Auto-generate coupons
+* Coupon status (Active, Redeemed, Expired)
+* Manual validation support
 
-- https://x.com/dobaria_brijesh
+### Restaurant Management
 
-## Useful Resources
+* Add / update restaurant profiles
+* Assign managers
+* Track coupon redemptions per restaurant
 
-- [More Admin Templates From CodedThemes](https://codedthemes.com/item/category/admin-templates/)
-- [Freebies From CodedThemes](https://codedthemes.com/item/category/free-templates/)
-- [Big Bundles](https://codedthemes.com/item/big-bundle/)
-- [Figma UI Kits](https://codedthemes.com/item/category/templates/figma/)
-- [Affiliate Program](https://codedthemes.com/affiliate/)
-- [Blogs](https://blog.codedthemes.com/)
+### Analytics & Reports
 
-## Community
+* Total referrals
+* Conversion rate
+* Coupons issued vs redeemed
+* Top-performing affiliates
 
-- 👥Follow [@codedthemes](https://x.com/codedthemes)
-- 🔗Join [Discord](https://discord.com/invite/p2E2WhCb6s)
-- 🔔Subscribe to [Codedtheme Blogs](https://blog.codedthemes.com/)
+---
 
-## Follow Us
+## 🧰 Technology Stack
 
-- [Twitter](https://twitter.com/codedthemes) 🐦
-- [Dribbble](https://dribbble.com/codedthemes) 🏀
-- [Github](https://github.com/codedthemes) 🐙
-- [LinkedIn](https://www.linkedin.com/company/codedthemes/) 💼
-- [Instagram](https://www.instagram.com/codedthemes/) 📷
-- [Facebook](https://www.facebook.com/codedthemes) 🟦
+* React (Hooks API)
+* Bootstrap 5
+* Redux Toolkit & Context API
+* React Router
+* REST API / Node.js backend (recommended)
+* MySQL / PostgreSQL database
+* JWT-based authentication
+
+---
+
+## Browser Support
+
+* Chrome
+* Edge
+* Firefox
+* Safari
+* Opera
+
+---
+
+## Future Enhancements
+
+* QR-code based coupon redemption
+* Mobile app (React Native)
+* Wallet-based reward system
+* Multi-restaurant affiliate accounts
+* Email & SMS notifications
+* Fraud detection for referrals
+
+---
+
+## 🐞 Issues
+
+If you find a bug or want to request a feature, please create an issue in the GitHub repository. We appreciate your feedback.
+
+---
+
+## 📄 License
+
+* Licensed under the MIT License
+* © Kokri Web Solutions
+* Author: Ranjeev Wassan
+
+---
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create your feature branch
+
+```bash
+git checkout -b feature/your-feature-name
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Add your feature"
+```
+
+4. Push to the branch
+
+```bash
+git push origin feature/your-feature-name
+```
+
+5. Open a Pull Request
+
+---
+
+## 📦 Environment Variables (Optional)
+
+Create a `.env` file in the root directory:
+
+```env
+REACT_APP_API_BASE_URL=http://localhost:5000/api
+REACT_APP_APP_NAME=Restaurant Affiliate System
+```
+
+---
+
+Happy building 🚀
