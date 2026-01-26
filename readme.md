@@ -207,7 +207,7 @@ If you find a bug or want to request a feature, please create an issue in the Gi
 ## 📄 License
 
 * Licensed under the MIT License
-* © Kokri Web Solutions
+* © Siman Infotech Inc.
 * Author: Ranjeev Wassan
 
 ---
